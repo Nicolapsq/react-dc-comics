@@ -38,6 +38,14 @@ ul{
 
 }
 
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
 /* .wrapper{
     min-height: 100vh;  /* l'unita di misura "vh" va ad indicare una parte della finestra che visualizziamo sul monitor. 1vh è un centesimo di finestra, quindi 100vh è tutta la finestra. con il "min" avanti gli diciamo di prendere ALMENO tutta la finestra. se la pagina dovra scrollare con min-height non avremo problemi */
     /* display: flex; */
@@ -119,16 +127,21 @@ li.active{
     background-color: #0282F9
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-}
 
-.text.main{
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
-.text-main .text{
-    padding-left: 1rem;
+.card img{
+    max-width: 20%;
+}
+
+.text-main{
     color: white;
+    padding-left: 1rem;
+    font-size: 0.5rem;
 }
