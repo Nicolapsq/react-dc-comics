@@ -46,6 +46,18 @@ ul{
     justify-content: space-between;
 }
 
+.align-items-c{
+    align-items: center;
+}
+
+.justify-content-c{
+    justify-content: center;
+}
+
+.bg-color-grey{
+    background-color: #303030;
+}
+
 /* .wrapper{
     min-height: 100vh;  /* l'unita di misura "vh" va ad indicare una parte della finestra che visualizziamo sul monitor. 1vh è un centesimo di finestra, quindi 100vh è tutta la finestra. con il "min" avanti gli diciamo di prendere ALMENO tutta la finestra. se la pagina dovra scrollare con min-height non avremo problemi */
     /* display: flex; */
@@ -88,7 +100,7 @@ ul{
     justify-content: space-between;
 }
 
-ul{
+.navbar ul{
     display: flex;
     align-items: center;
     height: 100%;
@@ -144,4 +156,45 @@ li.active{
     color: white;
     padding-left: 1rem;
     font-size: 0.5rem;
+}
+
+/* FOOTER */
+
+.bg-image{
+    background-image: url("public/footer-bg.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+.list-comics-shop{
+    padding-right: 20px;
+}
+
+.title-list{
+    color: white;
+    padding: 1rem 0;
+}
+
+.list{
+    color: #505D66;
+    padding: 0.4rem 0;
+    font-size: 0.5rem;
+}
+
+.bg-image li{
+    color: white;
+}
+
+.list-dc-sites{
+    gap: 20px;
+}
+
+button{
+    color: white;
+    border: 2px solid #0282F9;
+    background-color: #303030;
+    padding: 1rem;
+}
+
+.bg-color-grey ul{
+    height: 100%;
 }
