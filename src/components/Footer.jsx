@@ -48,13 +48,13 @@ export default function Footer() {
                         </div>
                     </div>
                     <div>
-                        <img src="public\dc-logo-bg.png" alt="" />
+                        <img src="dc-logo-bg.png" alt="" />
                     </div>
                 </div>
             </div>
             <div className="bg-color-grey">
                 <div className="container">
-                    <div className="flex space-between">
+                    <div className="navbar-footer flex space-between">
                         <div>
                             <button>
                                 SING-UP NOW
@@ -64,19 +64,19 @@ export default function Footer() {
                             <ul className="flex justify-content-c align-items-c">
                                 <li>FOLLOW US</li>
                                 <li>
-                                    <img src="public\footer-facebook.png" alt="facebook" />
+                                    <img src="footer-facebook.png" alt="facebook" />
                                 </li>
                                  <li>
-                                    <img src="public\footer-twitter.png" alt="twitter" />
+                                    <img src="footer-twitter.png" alt="twitter" />
                                 </li>
                                  <li>
-                                    <img src="public\footer-youtube.png" alt="you-tube" />
+                                    <img src="footer-youtube.png" alt="you-tube" />
                                 </li>
                                  <li>
-                                    <img src="public\footer-pinterest.png" alt="pinterest" />
+                                    <img src="footer-pinterest.png" alt="pinterest" />
                                 </li>
                                  <li>
-                                    <img src="public\footer-periscope.png" alt="periscope" />
+                                    <img src="footer-periscope.png" alt="periscope" />
                                 </li>
                             </ul>
                         </div>

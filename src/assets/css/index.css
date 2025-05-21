@@ -100,6 +100,10 @@ ul{
     justify-content: space-between;
 }
 
+.navbar-img{
+    padding: 0.5rem 0;
+}
+
 .navbar ul{
     display: flex;
     align-items: center;
@@ -125,7 +129,32 @@ li.active{
     transform: translate(-50%, -50%);
 }
 
+/* ALERT */
+
+.color-white {
+    color: white;
+    text-align: center;
+}
+
+.bg-color-red{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
 /* MAIN */
+
+/* .text-error{
+    color: red;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 1rem 0;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 1rem 0;
+} */
 
 .bg-color-black{
     background-color: black;
@@ -133,19 +162,23 @@ li.active{
 
 .bg-color-black h1{
     color: white;
+    padding: 1rem 0;
 }
 
 .bg-color-azure{
-    background-color: #0282F9
+    background-color: #0282F9;
 }
 
-
+.list-card{
+    height: 100%;
+}
 
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 1rem 0;
 }
 
 .card img{
@@ -161,7 +194,7 @@ li.active{
 /* FOOTER */
 
 .bg-image{
-    background-image: url("public/footer-bg.jpg");
+    background-image: url("footer-bg.jpg");
     /* background-repeat: no-repeat; */
 }
 
@@ -184,8 +217,16 @@ li.active{
     color: white;
 }
 
+/* .text-red {
+
+} */
+
 .list-dc-sites{
     gap: 20px;
+}
+
+.navbar-footer{
+    padding: 1rem 0;
 }
 
 button{

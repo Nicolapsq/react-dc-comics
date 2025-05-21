@@ -7,34 +7,34 @@ export default function Main() {
             </div>
         </div>
          <div className="bg-color-azure">
-            <div className="container">
-                <div className="flex space-between">
+            <div className="container list-card">
+                <div className="list-card flex space-between">
                     <div className="card">
-                        <img src="public\buy-comics-digital-comics.png" alt="comics" />
+                        <img src="buy-comics-digital-comics.png" alt="comics" />
                         <span className="text-main">
                                 DIGITAL COMICS   
                         </span>
                     </div>
                     <div className="card">
-                        <img src="public\buy-comics-merchandise.png" alt="merchandise" />
+                        <img src="buy-comics-merchandise.png" alt="merchandise" />
                         <span className="text-main">
                                 DC MERCHANDISE   
                         </span>
                     </div>
                     <div className="card">
-                        <img src="public\buy-comics-subscriptions.png" alt="subscription" />
+                        <img src="buy-comics-subscriptions.png" alt="subscription" />
                         <span className="text-main">
                                 SUBSCRIPTION   
                         </span>
                     </div>
                     <div className="card">
-                        <img src="public\buy-comics-shop-locator.png" alt="shop-locator" />
+                        <img src="buy-comics-shop-locator.png" alt="shop-locator" />
                         <span className="text-main">
                                 CONIC SHOP LOCATOR   
                         </span>
                     </div>
                     <div className="card">
-                        <img src="public\buy-dc-power-visa.svg" alt="visa" />
+                        <img src="buy-dc-power-visa.svg" alt="visa" />
                         <span className="text-main">
                                 DC POWER VISA   
                         </span>
