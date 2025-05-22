@@ -6,7 +6,7 @@ import Alert from "./components/Alert";
 export default function app() {
   return <>
       <Header></Header>
-      <Alert text="" colorText="" bgColor=""></Alert>
+      <Alert text="a" colorText="a" bgColor="a"></Alert>
       <Main></Main>
       <Footer></Footer>
   </>;

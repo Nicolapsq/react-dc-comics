@@ -165,6 +165,34 @@ li.active{
     padding: 1rem 0;
 }
 
+/********************** COMIC *******************************/
+
+.bg-color-black h2{
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.comics-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.col-6{
+    width: calc((100% / 6) - 1rem);
+}
+
+.col-6 img{
+    width: 144px;
+    height: 144px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/****************************************************/
+
 .bg-color-azure{
     background-color: #0282F9;
 }

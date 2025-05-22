@@ -1,9 +1,13 @@
+import ComicsList from "./ComicsList";
+
 export default function Main() {
     return (
     <div>
         <div className="bg-color-black">
             <div className="container">
-                <h1>Content goes Here</h1>
+                <div className="comics-list">
+                    <ComicsList />
+                </div>
             </div>
         </div>
          <div className="bg-color-azure">

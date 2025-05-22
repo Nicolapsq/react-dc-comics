@@ -1,5 +1,6 @@
 export default function Header() {
   return (
+  <>
     <div className="container">
       <nav className="navbar">
         <div className="navbar-img">
@@ -23,5 +24,9 @@ export default function Header() {
         </div>
       </nav>
     </div>
+    <div>
+      <img src="jumbotron.jpg" alt="jumbotron" />
+    </div>
+  </>
   );
 }
